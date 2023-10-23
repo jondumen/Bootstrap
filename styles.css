@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {
+  background-color: #0C1B48;
+}
+
+h1 {
+  color: #6FADE3;
+}
+
+.btn.btn-outline-success {
+  background-color: #D6130A;
+  border-color: #D6130A; /* Cambia el color del borde a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  transition: background-color 0.2s; /* Agrega una transición suave en el cambio de color de fondo */
+}
+
+.btn.btn-outline-success:hover {
+  background-color: #FF0049; /* Cambia el color de fondo en el hover a tu preferencia */
+  border-color: #FF0049; /* Cambia el color del borde en el hover a tu preferencia */
+  color: white; /* Cambia el color del texto en el hover a tu preferencia */
+}
+
+.btn-primary {
+  background-color: #FF0049;
+}
+
+#miku {
+  border-radius: 7rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.card {
+  background-color: #7366BD;
+  border: 2px solid #6FADE3;
+}
+.card .card-body {
+  background-color: #7366BD;
+  color: #ffffff;
+}
+.card .rota-horizontal {
+  transform: scaleX(-1);
+}
+
+.miku img {
+  width: 3cm;
+  height: 3cm;
+}
+.miku #TW {
+  width: 3cm;
+  height: 2.5cm;
+}
+.miku #TikTok {
+  align-items: center;
+  width: 1.7cm;
+  height: 2cm;
+}/*# sourceMappingURL=styles.css.map */

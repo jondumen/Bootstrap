@@ -1,0 +1,62 @@
+@import 'bs-var';
+
+body {
+    background-color: $color-fondo;
+}
+
+h1 {
+    color: $color-4;
+}
+
+.btn.btn-outline-success {
+    background-color: $color-2;
+    border-color: $color-2; /* Cambia el color del borde a tu preferencia */
+    color: white; /* Cambia el color del texto a tu preferencia */
+    transition: background-color 0.2s; /* Agrega una transición suave en el cambio de color de fondo */
+}
+
+.btn.btn-outline-success:hover {
+    background-color: $color-1; /* Cambia el color de fondo en el hover a tu preferencia */
+    border-color: $color-1; /* Cambia el color del borde en el hover a tu preferencia */
+    color: white; /* Cambia el color del texto en el hover a tu preferencia */
+}
+
+
+.btn-primary{
+    background-color: $color-1;
+}
+
+#miku{
+    border-radius: 7rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.card {
+    background-color: $color-3;
+    border: 2px solid $color-4;
+    .card-body {
+        background-color: $color-3;
+        color: $light;
+    }
+    .rota-horizontal{
+        transform: scaleX(-1);
+    }
+}
+
+.miku {
+    img {
+        width: 3cm;
+        height: 3cm;
+    }
+    #TW {
+        width: 3cm;
+        height: 2.5cm;
+    }
+    
+    #TikTok {
+        align-items: center;
+        width: 1.7cm;
+        height: 2cm;
+    }
+}
